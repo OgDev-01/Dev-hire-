@@ -1,0 +1,75 @@
+@import "../../../base/Helpers/styles/variables";
+@import "../../../base/Helpers/styles/rem_converter";
+.card {
+  width: 238px;
+  background-color: $secondary;
+  border-radius: 10px;
+  padding-top: 5px;
+  margin: 10px;
+}
+.cardHero {
+  margin: 0 auto;
+  width: 228px;
+  position: relative;
+  height: 139px;
+  z-index: 0;
+  // border-radius: 5px;
+}
+.img {
+  border-radius: 5px;
+}
+.favIcon {
+  position: relative;
+  // background-color: $secondary;
+  z-index: 1;
+  width: 35px;
+  height: 35px;
+  right: 10px;
+  border-radius: 10px;
+  top: 10px;
+  right: -180px;
+
+  img {
+    position: absolute;
+    margin: 11.5px 9.5px;
+  }
+}
+.cardBody {
+  padding: 0 10px;
+  width: 100%;
+  padding-bottom: 15px;
+
+  h2 {
+    padding: 0;
+    margin: 0;
+    margin-top: -12px;
+    font-size: rem(12px);
+  }
+  p {
+    font-size: rem(10px);
+    margin: 0;
+  }
+  img {
+    padding: 0;
+    margin: 0;
+    transform: translateY(-22px);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 3px solid $secondary;
+  }
+  a {
+    display: inline-block;
+    transform: translateY(-5px);
+    text-decoration: none;
+    color: $primary;
+    font-weight: 700;
+  }
+}
+
+.cardDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -5px;
+}

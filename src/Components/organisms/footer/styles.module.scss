@@ -1,0 +1,13 @@
+.foot {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  overflow-y: visible;
+  align-items: center;
+  p {
+    align-self: flex-end;
+  }
+}
