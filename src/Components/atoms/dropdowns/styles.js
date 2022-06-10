@@ -19,6 +19,7 @@ export const DropdownWrap = styled.div`
 export const DropdownHeader = styled.div`
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 `;
 export const DropdownListContainer = styled.ul`
   margin: 0;
@@ -30,4 +31,5 @@ export const DropdownListItems = styled.li`
   list-style: none;
   margin: 0;
   padding: 2px 0;
+  cursor: pointer;
 `;
